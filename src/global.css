@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(104, 95, 84);
+}
+
+.appmain{
+    display: flex;
+}
+
+.textdiv{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100%;
+    flex-basis: 50%;
+}
+
+.qrdiv{
+    /* border:2px solid black; */
+    flex-basis: 50%;
+    width: 100%;
+    height: 100vh;
+}
+
+ .formmain{
+    
+    width: 80%;
+    height: 100%;
+    margin: 10% auto;
+}
+
+.formmain>form{
+    border: 2px solid black;
+    width: 80%;
+    height: 60%;
+    margin: 25% auto;
+    border-radius: 10%;
+    background-color: burlywood;
+}
+
+.formdiv>input{
+    display: flex;
+    padding-bottom: 2%;
+    width: 80%;
+}
+
+.formdiv{
+    padding-top: 8%;
+    padding-left: 5%;
+    width: 90%;
+    background-color: burlywood;
+    margin: 3% 5%;
+    padding-bottom: 4%;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.formdiv> label,input,button{
+    background-color: burlywood;
+}
+
+.formdiv>button{
+    padding: 3%;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 10%;
+}
+
+.qrmain{
+    width: 50%;
+    /* border: 2px solid black; */
+    margin: 30% auto;
+    height: 50%;
+    text-align: center;
+} 
+
+.qrmain>div{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100%;
+}
+
